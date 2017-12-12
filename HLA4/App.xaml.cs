@@ -8,7 +8,7 @@ namespace HLA4
         {
             InitializeComponent();
 
-            MainPage = new HLA4Page();
+            MainPage = new NavigationPage(new HLA4Page());
         }
 
         protected override void OnStart()
