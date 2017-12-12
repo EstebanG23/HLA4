@@ -10,9 +10,34 @@ namespace HLA4
 
         }
 
-        void Handle_Activated(object sender, System.EventArgs e)
+        private void CalendarButton_Clicked(object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new UserProfile());
+
         }
-    }
+        private void CheckInButton_Clicked(object sender, System.EventArgs e)
+        {
+
+        }
+        private void StudentOrgButton_Clicked(object sender, System.EventArgs e)
+        {
+
+        }
+        private void GradOrgButton_Clicked(object sender, System.EventArgs e)
+        {
+
+        }
+        private void GainButton_Clicked(object sender, System.EventArgs e)
+        {
+
+        }
+        private void MCDAButton_Clicked(object sender, System.EventArgs e)
+        {
+        }
+
+        void Handle_Activated(object sender, System.EventArgs e)
+            {
+                Navigation.PushAsync(new UserProfile());
+            }
+        }
+    
 }
