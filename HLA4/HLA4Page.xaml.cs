@@ -9,5 +9,30 @@ namespace HLA4
             InitializeComponent();
 
         }
+
+        private void CalendarButton_Clicked(object sender, System.EventArgs e)
+        {
+
+        }
+        private void CheckInButton_Clicked(object sender, System.EventArgs e)
+        {
+
+        }
+        private void StudentOrgButton_Clicked(object sender, System.EventArgs e)
+        {
+
+        }
+        private void GradOrgButton_Clicked(object sender, System.EventArgs e)
+        {
+
+        }
+        private void GainButton_Clicked(object sender, System.EventArgs e)
+        {
+
+        }
+        private void MCDAButton_Clicked(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }

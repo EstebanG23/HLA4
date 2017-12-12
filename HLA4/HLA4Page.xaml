@@ -25,17 +25,17 @@ BackgroundColor="LightGray">
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Button Text="Calendar"  Grid.Row="0" Grid.Column="0"
+            <Button Text="Calendar"  Grid.Row="0" Grid.Column="0" Clicked="CalendarButton_Clicked"
         Style="{StaticResource plainButton}"/>
-            <Button Text="Check In" Grid.Row="0" Grid.Column="1"
+            <Button Text="Check In" Grid.Row="0" Grid.Column="1" Clicked="CheckInButton_Clicked"
         Style="{StaticResource plainButton}"  />
-            <Button Text="Student Organizations" Grid.Row="1" Grid.Column="0"
+            <Button Text="Student Organizations" Grid.Row="1" Grid.Column="0" Clicked="StudentOrgButton_Clicked"
         Style="{StaticResource plainButton}" />
-            <Button Text = "Graduate Organizations" Grid.Row="1" Grid.Column="1"
+            <Button Text = "Graduate Organizations" Grid.Row="1" Grid.Column="1" Clicked="GradOrgButton_Clicked"
         Style="{StaticResource plainButton}" />
-            <Button Text = "Gainesville Resources" Grid.Row="2" Grid.Column="0"
+            <Button Text = "Gainesville Resources" Grid.Row="2" Grid.Column="0" Clicked="GainButton_Clicked"
         Style="{StaticResource plainButton}" />
-            <Button Text = "MCDA Links" Grid.Row="2" Grid.Column="1"
+            <Button Text = "MCDA Links" Grid.Row="2" Grid.Column="1" Clicked="MCDAButton_Clicked"
         Style="{StaticResource plainButton}" />
         </Grid>
   
