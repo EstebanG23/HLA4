@@ -38,3 +38,5 @@ Thumbs.db
 
 # dotCover
 *.dotCover
+.vs/HLA4/v15/Server/sqlite3/storage.ide-shm
+.vs/HLA4/v15/Server/sqlite3/storage.ide-wal
