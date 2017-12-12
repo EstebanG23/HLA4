@@ -8,5 +8,10 @@ namespace HLA4
         {
             InitializeComponent();
         }
+
+        void Handle_Activated(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new UserProfile());
+        }
     }
 }
