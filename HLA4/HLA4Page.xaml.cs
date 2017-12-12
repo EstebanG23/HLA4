@@ -10,6 +10,7 @@ namespace HLA4
 
         }
 
+<<<<<<< HEAD
         private void CalendarButton_Clicked(object sender, System.EventArgs e)
         {
 
@@ -33,6 +34,11 @@ namespace HLA4
         private void MCDAButton_Clicked(object sender, System.EventArgs e)
         {
 
+=======
+        void Handle_Activated(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new UserProfile());
+>>>>>>> 9de342e4680c72b314499b427addd45a077ec321
         }
     }
 }
