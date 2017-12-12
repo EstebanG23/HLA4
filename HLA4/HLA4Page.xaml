@@ -1,19 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:HLA4" x:Class="HLA4.HLA4Page"
     Title = "Hispanic Latino Affairs"
-BackgroundColor="#404040">
+BackgroundColor="LightGray">
+
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="plainButton" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="#eee"/>
-                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="BackgroundColor" Value="#fff"/>
+                <Setter Property="TextColor" Value="#00529B" />
                 <Setter Property="BorderRadius" Value="2"/>
-                <Setter Property="FontSize" Value="16" />
+                <Setter Property="FontSize" Value="8" />
+                <Setter Property="FontAttributes" Value="Bold" />
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
     <ContentPage.Content>
-        <Grid x:Name="controlGrid" RowSpacing="1" ColumnSpacing="1">
+        <Grid x:Name="controlGrid" RowSpacing="20" ColumnSpacing="10" Padding="20">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
@@ -23,18 +25,20 @@ BackgroundColor="#404040">
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Button Text = "Button1" Grid.Row="0" Grid.Column="0"
+            <Button Text="Calendar"  Grid.Row="0" Grid.Column="0"
+        Style="{StaticResource plainButton}"/>
+            <Button Text="Check In" Grid.Row="0" Grid.Column="1"
+        Style="{StaticResource plainButton}"  />
+            <Button Text="Student Organizations" Grid.Row="1" Grid.Column="0"
         Style="{StaticResource plainButton}" />
-            <Button Text = "Button2" Grid.Row="0" Grid.Column="1"
+            <Button Text = "Graduate Organizations" Grid.Row="1" Grid.Column="1"
         Style="{StaticResource plainButton}" />
-            <Button Text = "Button3" Grid.Row="1" Grid.Column="0"
+            <Button Text = "Gainesville Resources" Grid.Row="2" Grid.Column="0"
         Style="{StaticResource plainButton}" />
-            <Button Text = "Button4" Grid.Row="1" Grid.Column="1"
-        Style="{StaticResource plainButton}" />
-            <Button Text = "Button5" Grid.Row="2" Grid.Column="0"
-        Style="{StaticResource plainButton}" />
-            <Button Text = "Button6" Grid.Row="2" Grid.Column="1"
+            <Button Text = "MCDA Links" Grid.Row="2" Grid.Column="1"
         Style="{StaticResource plainButton}" />
         </Grid>
+  
     </ContentPage.Content>
+    
 </ContentPage>

@@ -7,6 +7,7 @@ namespace HLA4
         public HLA4Page()
         {
             InitializeComponent();
+
         }
     }
 }
