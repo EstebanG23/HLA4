@@ -10,6 +10,13 @@ namespace HLA4
         public StudentOrg()
         {
             InitializeComponent();
+            var vList = App.DAUtil.GetAllUndergrad();
+            UndergradData.ItemsSource = vList;
+        }
+
+        void Handle_ItemTapped(object sender, Xamarin.Forms.ItemTappedEventArgs e)
+        {
+            DisplayAlert("Tapped","Works","Great!");
         }
     }
 }
